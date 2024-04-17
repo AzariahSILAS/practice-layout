@@ -6,6 +6,7 @@
 body{
     margin: 0;
 }
+
 p{
     font-size: 25px;
 }
@@ -34,8 +35,12 @@ header{
     height: 50px;
     background-color: #2E4372;
     margin-left: 20px;
-    position: absolute;
-    z-index: 10;
+   
+}
+a{
+    align-items: center;  
+    position: absolute; 
+    z-index: 10; 
 }
 
 .logo-div{
@@ -115,6 +120,7 @@ margin-top: 10%;
 }
 .flex-text{
     display: flex;
+    gap: 5%;
     
 }
 
@@ -138,7 +144,7 @@ margin-top: 10%;
     padding: 10px 0 ;
     grid-template-columns: 24% 24% 24% 24% ;
     grid-template-rows: 200px 150px 150px;
-    gap: 10px;
+    gap: 1%;
 }
 
 .img1{
@@ -151,4 +157,60 @@ margin-top: 10%;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+
+
+/* --------media quary----------- */
+
+
+
+
+@media (max-width:1068px) {
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px
+    }
+    span{
+        font-size: 30px;
+    }
+    .img-div3{
+        height: 70%;
+    }
+    .maine-container2 button{
+        margin-top: 0;
+    }
+
+}
+
+
+@media (max-width:767px) {
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px
+    }
+    span{
+        font-size: 30px;
+    }
+    .img-div3{
+        height: 70%;
+    }
+    .maine-container2 button{
+        margin-top: 0;
+    }
+    .img-div2 {
+
+        display: none;
+    }
+    .img-div4 {
+        background-color: #537E7C;
+        width: 263px;
+        height: 298px;
+        margin-right: 40px;
+    }
+
 }
